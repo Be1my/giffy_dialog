@@ -135,38 +135,6 @@ class GiffyDialog extends StatelessWidget {
     this.entryAnimation = EntryAnimation.none,
   }) : giffy = image;
 
-  /// Creates a giffy dialog which uses a [RiveAnimation] as the [giffy].
-  const GiffyDialog.rive(
-    RiveAnimation rive, {
-    super.key,
-    this.giffyBuilder = defaultGiffyBuilder,
-    this.giffyPadding,
-    this.title,
-    this.titlePadding,
-    this.titleTextStyle,
-    this.content,
-    this.contentPadding,
-    this.contentTextStyle,
-    this.actions,
-    this.actionsPadding,
-    this.actionsAlignment,
-    this.actionsOverflowDirection,
-    this.actionsOverflowButtonSpacing,
-    this.actionsOverflowAlignment,
-    this.buttonPadding,
-    this.backgroundColor,
-    this.elevation,
-    this.shadowColor,
-    this.surfaceTintColor,
-    this.insetPadding = _defaultInsetPadding,
-    this.clipBehavior = Clip.antiAlias,
-    this.shape,
-    this.alignment,
-    this.semanticLabel,
-    this.scrollable = false,
-    this.entryAnimation = EntryAnimation.none,
-  }) : giffy = rive;
-
   /// Creates a giffy dialog which uses a [LottieBuilder] as the [giffy].
   const GiffyDialog.lottie(
     LottieBuilder lottie, {

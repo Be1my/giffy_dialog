@@ -2,7 +2,6 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:rive/rive.dart' hide Image;
 
 import 'entry_animation.dart';
 

@@ -119,30 +119,6 @@ class GiffyBottomSheet extends StatelessWidget {
     this.entryAnimation = EntryAnimation.none,
   }) : giffy = image;
 
-  /// Creates an giffy bottom sheet which uses a [RiveAnimation] as the [giffy].
-  const GiffyBottomSheet.rive(
-    RiveAnimation rive, {
-    super.key,
-    this.giffyBuilder = defaultGiffyBuilder,
-    this.giffyPadding,
-    this.title,
-    this.titlePadding,
-    this.titleTextStyle,
-    this.content,
-    this.contentPadding,
-    this.contentTextStyle,
-    this.actions,
-    this.actionsPadding,
-    this.actionsAlignment,
-    this.actionsOverflowDirection,
-    this.actionsOverflowButtonSpacing,
-    this.actionsOverflowAlignment,
-    this.buttonPadding,
-    this.semanticLabel,
-    this.scrollable = false,
-    this.entryAnimation = EntryAnimation.none,
-  }) : giffy = rive;
-
   /// Creates an giffy bottom sheet which uses a [LottieBuilder] as the [giffy].
   const GiffyBottomSheet.lottie(
     LottieBuilder lottie, {
